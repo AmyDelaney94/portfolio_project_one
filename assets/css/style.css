@@ -53,3 +53,33 @@ body {
 .active {
     border-bottom: 1px solid #f01010b9;
 } 
+
+/* Hero Image */
+#hero-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#intro-text, #intro-text h2 {
+    color: #000000;
+}
+
+#intro-text {
+    font-size: 120%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    width: 300px;
+    height: 150px;
+    padding-top: 350px;
+    padding-left: 500px;
+    transform: skewY(-8deg);
+}
+
+#hero-image {
+    height: 650px;
+    width: 100%;
+    background: url('../images/deskimage.jpg') no-repeat center center;
+}
+

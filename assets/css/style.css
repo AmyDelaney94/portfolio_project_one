@@ -59,6 +59,7 @@ body {
     height: 650px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #intro-text, #intro-text h2 {
@@ -75,6 +76,7 @@ body {
     padding-top: 350px;
     padding-left: 500px;
     transform: skewY(-8deg);
+    position: absolute;
 }
 
 #hero-image {

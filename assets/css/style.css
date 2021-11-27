@@ -151,3 +151,31 @@ h2, h3 {
     width: 100%;
     height: 225px;
 }
+
+/* Footer Section */
+
+footer {
+    position: relative;
+    border-bottom: 5%;
+    letter-spacing: 3px;
+    line-height: 100px;
+    margin-top: 10%;
+    margin-right: 40px;
+    margin-left: 40%;
+}
+
+#socials li{
+    list-style-type: none;
+    position: center;
+    display: inline;
+}
+
+#socials i {
+    color: #f01010b9;
+    font-size: 150%;
+    padding: 30px
+}
+
+#socials a:hover {
+    border-bottom: 1px solid blue;
+}

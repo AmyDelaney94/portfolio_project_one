@@ -75,8 +75,9 @@ body {
     height: 150px;
     padding-top: 350px;
     padding-left: 500px;
+    padding-right: 500px;
     transform: skewY(-8deg);
-    position: absolute;
+    /* position: absolute; */
 }
 
 #hero-image {
@@ -85,3 +86,68 @@ body {
     background: url('../images/deskimage.jpg') no-repeat center center;
 }
 
+/* Home Page */
+
+.home {
+    font-family: 'Oswald', sans-serif;
+    color: #3c3c3c;
+}
+
+h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.flexbox-item-1{
+   font-size: 250%;
+   align-self: center center;
+}
+
+.flexbox-item-2 {
+    width: 150px;
+    height: 175px;
+    float: left;
+    margin-left: 15%;
+}
+
+.flexbox-item-3 {
+    border: 2px solid black;
+    float: right;
+    width: 425px;
+    margin-right: 15%;
+    height: 175px;
+}
+
+#selfie {
+    width: 100px;
+    height: 175px;
+    float: left;
+    margin-left: 15%;
+}
+
+#hobbies {
+    margin-top: 250px;
+    height: 500px;
+    position: relative;
+}
+
+#gallery {
+    clear: both;
+    line-height: 1;
+    column-count: 3;
+    column-gap: 5px;
+}
+
+#gallery img {
+    width: 100%;
+    height: 225px;
+}

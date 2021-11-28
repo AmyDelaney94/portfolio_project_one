@@ -99,31 +99,41 @@ h2, h3 {
     color: black;
 }
 
-.flexbox-container {
+.container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-flow: row wrap;
     align-items: center;
-    align-content: center;
+    margin-top: 10px;
 }
 
-.flexbox-item-1{
+.container >* {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.header {
+    line-height: 75px;
+}
+
+.title {
    font-size: 250%;
-   align-self: center center;
+   text-align: center;
 }
 
-.flexbox-item-2 {
+.picture {
     width: 150px;
     height: 175px;
     float: left;
     margin-left: 15%;
 }
 
-.flexbox-item-3 {
+.text {
     border: 2px solid black;
     float: right;
     width: 425px;
-    margin-right: 15%;
+    /* margin-right: 15%; */
     height: 175px;
 }
 
@@ -131,7 +141,7 @@ h2, h3 {
     width: 100px;
     height: 175px;
     float: left;
-    margin-left: 15%;
+    /* margin-left: 15%; */
 }
 
 #hobbies {
@@ -154,15 +164,21 @@ h2, h3 {
 
 /* Footer Section */
 
-footer {
+.footer {
+    height: 100px;
+    margin-top: 30px;
+    
+}
+
+/* footer {
     position: relative;
     border-bottom: 5%;
     letter-spacing: 3px;
-    line-height: 100px;
-    margin-top: 10%;
+    line-height: 75px;
+    margin-top: 20px;
     margin-right: 40px;
     margin-left: 40%;
-}
+} */
 
 #socials li{
     list-style-type: none;
@@ -179,3 +195,29 @@ footer {
 #socials a:hover {
     border-bottom: 1px solid blue;
 }
+
+
+/* Media Queries*/
+
+@media all and (min-width: 800px) {
+    .home {
+        flex: 3;
+    }
+
+    .title {
+        order: 2;
+    }
+
+    .picture {
+        order: 1;
+    }
+
+    .text {
+        order: 3;
+    }
+
+    .footer {
+        order: 4;
+    }
+}
+

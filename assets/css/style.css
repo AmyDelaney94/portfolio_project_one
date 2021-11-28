@@ -13,7 +13,8 @@ body {
 }
 
 /* Title and Logo*/
-#h1, #h2 {
+#h1,
+#h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
 }
@@ -25,7 +26,8 @@ body {
     color: #000000;
 }
 
-#logo , #selection {
+#logo,
+#selection {
     line-height: 75px;
 }
 
@@ -52,7 +54,7 @@ body {
 
 .active {
     border-bottom: 1px solid #f01010b9;
-} 
+}
 
 /* Hero Image */
 #hero-outer {
@@ -62,7 +64,8 @@ body {
     position: relative;
 }
 
-#intro-text, #intro-text h2 {
+#intro-text,
+#intro-text h2 {
     color: #000000;
 }
 
@@ -93,7 +96,8 @@ body {
     color: #3c3c3c;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     color: black;
@@ -106,7 +110,7 @@ h2, h3 {
     margin-top: 10px;
 }
 
-.container >* {
+.container>* {
     padding: 10px;
     margin: 10px;
     flex: 1 100%;
@@ -118,8 +122,8 @@ h2, h3 {
 }
 
 .title {
-   font-size: 250%;
-   text-align: center;
+    font-size: 250%;
+    text-align: center;
 }
 
 .picture {
@@ -167,7 +171,7 @@ h2, h3 {
 .footer {
     height: 100px;
     margin-top: 30px;
-    
+
 }
 
 /* footer {
@@ -180,7 +184,7 @@ h2, h3 {
     margin-left: 40%;
 } */
 
-#socials li{
+#socials li {
     list-style-type: none;
     position: center;
     display: inline;
@@ -196,23 +200,24 @@ h2, h3 {
     border-bottom: 1px solid blue;
 }
 
+/*  */
 
 /* Media Queries*/
 
 @media all and (min-width: 800px) {
-    .home {
-        flex: 3;
+    .header {
+        flex: 4;
     }
 
     .title {
         order: 2;
     }
 
-    .picture {
+    .intro1 {
         order: 1;
     }
 
-    .text {
+    .intro2 {
         order: 3;
     }
 
@@ -221,3 +226,8 @@ h2, h3 {
     }
 }
 
+@media all and (min-width: 600px) {
+    .intro {
+        flex: 1;
+    }
+}

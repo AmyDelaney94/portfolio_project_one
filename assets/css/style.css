@@ -111,10 +111,7 @@ h3 {
 }
 
 .container>* {
-    padding: 10px;
-    margin: 10px;
     flex: 1 100%;
-    border-radius: 10px;
 }
 
 .header {
@@ -171,7 +168,8 @@ h3 {
 .footer {
     height: 100px;
     margin-top: 30px;
-
+    margin: 0 auto;
+    line-height: 75px;
 }
 
 /* footer {
@@ -200,7 +198,62 @@ h3 {
     border-bottom: 1px solid blue;
 }
 
-/*  */
+/* History Page */
+
+.history {
+    display: flex;
+    flex-direction: column;
+}
+
+.education {
+    height: 400px;
+    width: 50%;
+
+    margin: 0 auto;
+}
+
+.employment {
+    height: 600px;
+    margin-top: 75px;
+}
+
+#school h2 {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 3%;
+    padding-top: 20%;
+}
+
+
+#school table td {
+    text-align: center;
+}
+
+#school table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#job h2 {
+    font-size: 200%;
+    float: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 3%;
+    padding-top: 5%;
+}
+
+.list {
+    display: grid;
+    grid-template-rows: repeat(7, min-content);
+    grid-auto-flow: column;
+    column-width: 200px;
+  }
+
+#job ul{
+    margin: 20px;
+    padding: 10px;
+}
 
 /* Media Queries*/
 
@@ -229,5 +282,35 @@ h3 {
 @media all and (min-width: 600px) {
     .intro {
         flex: 1;
+    }
+
+    .education {
+        flex: 1;
+    }
+
+    .employment {
+        flex: 1;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .history {
+        flex: 3;
+    }
+
+    .education {
+        order: 1;
+    }
+     
+    .employment {
+        order: 2;
+    }
+
+    .footer {
+        order: 3;
+    }
+
+    .header {
+        flex: 100%; 
     }
 }

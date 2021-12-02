@@ -80,7 +80,7 @@ body {
     padding-left: 500px;
     padding-right: 500px;
     transform: skewY(-8deg);
-    /* position: absolute; */
+    position: relative;
 }
 
 #hero-image {
@@ -270,34 +270,36 @@ figcaption {
 }
 
 .form {
-    background: url('#');
+    background: url('../images/plant.jpg');
     background-size: cover;
     background-position: center;
     height: 800px;
 }
 
-#contact-form {
-    background-color: #f01010b9;
-    color: beige;
-    max-width: 500px;
+.contact-form {
+    color: black;
+    max-width: 250px;
     position: absolute;
-    padding: 20%;
-    margin: 200px 10% 0 0 ;
+    margin-top: 10px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    height: 400px;
+    
 }
 
-#contact-form h2 {
-    color: beige;
+.contact-form > h3 {
+    color: #3c3c3c;
     margin-bottom: 30px;
 }
 
 .text {
-    background: transparent;
-    color: beige;
+    background: opaque;
+    color: #3c3c3c;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid beige;
-    border-radius: 3px;
+    border: 1px solid #f01010b9;
+    border-radius: 2px;
 }
 
 .text:hover {
@@ -306,12 +308,12 @@ figcaption {
 
 .send-button{
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 3px;
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
     background-color: #f01010b9;
-    color: beige;
+    color: rgb(238, 238, 223);
     display: block;
 }
 

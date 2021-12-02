@@ -172,7 +172,7 @@ figcaption {
 .footer {
     height: 100px;
     margin-top: 10%;
-    margin: 0 auto;
+    margin: 0 center;
 }
 
 #socials li {
@@ -216,7 +216,6 @@ figcaption {
     margin-bottom: 3%;
     padding-top: 20%;
 }
-
 
 #school table td {
     text-align: center;
@@ -262,6 +261,58 @@ figcaption {
 #job ul{
     margin: 20px;
     padding: 10px;
+}
+
+/* Contact Me Page*/
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background: url('#');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+#contact-form {
+    background-color: #f01010b9;
+    color: beige;
+    max-width: 500px;
+    position: absolute;
+    padding: 20%;
+    margin: 200px 10% 0 0 ;
+}
+
+#contact-form h2 {
+    color: beige;
+    margin-bottom: 30px;
+}
+
+.text {
+    background: transparent;
+    color: beige;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid beige;
+    border-radius: 3px;
+}
+
+.text:hover {
+    border-color: blue;
+}
+
+.send-button{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f01010b9;
+    color: beige;
+    display: block;
 }
 
 /* Media Queries*/
@@ -323,3 +374,4 @@ figcaption {
         flex: 100%; 
     }
 }
+

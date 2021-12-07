@@ -302,6 +302,10 @@ figcaption {
     border-radius: 2px;
 }
 
+#message {
+    height: 75px;
+}
+
 .text:hover {
     border-color: blue;
 }

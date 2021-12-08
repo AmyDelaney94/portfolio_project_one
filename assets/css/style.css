@@ -270,12 +270,7 @@ body {
     margin-top: 50px;
 }
 
-.list1 {
-    margin: auto;
-    align-self: center;
-}
-
-.list2 {
+.list1, .list2 {
     margin: auto;
     align-self: center;
 }

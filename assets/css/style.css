@@ -246,13 +246,13 @@ body {
 
 .uni {
     margin: auto;
-    text-align: center;
+    align-self: center;
     padding-left: 10px;
 }
 
 .grades {
     margin: auto;
-    align-items: center;
+    align-self: center;
     padding-right: 10px;
 }
 

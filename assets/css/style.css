@@ -245,13 +245,13 @@ body {
 }
 
 .uni {
-    margin-right: auto;
+    margin: auto;
     text-align: center;
     padding-left: 10px;
 }
 
 .grades {
-    margin-left: auto;
+    margin: auto;
     align-items: center;
     padding-right: 10px;
 }
@@ -260,9 +260,7 @@ body {
     text-align: center;
 }
 
-#school table,
-th,
-td {
+#school table, th, td {
     border: 2px solid black;
     border-collapse: collapse;
 }
@@ -270,29 +268,21 @@ td {
 .employment {
     height: 600px;
     margin-top: 50px;
-    rotate: column-wise;
-    justify-content: space-evenly;
-
 }
 
 .list1 {
-    margin-right: auto;
-    align-self: left;
-    float: left;
-
+    margin: auto;
+    align-self: center;
 }
 
 .list2 {
-    margin-left: auto;
-    align-self: right;
-    float: right;
+    margin: auto;
+    align-self: center;
 }
 
 #job h4 {
-    margin-left: 5%;
     margin-top: 5%;
-    margin-right: 5%;
-    align-items: center;
+    align-self: center;
 }
 
 #job h2 {
@@ -303,83 +293,11 @@ td {
 }
 
 .work {
-    margin-left: auto;
+    margin: auto;
     text-align: center;
     padding-right: 10px;
-    float: right;
     padding-top: 50px;
 }
-
-/* 
-.history {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-.education {
-    height: 400px;
-    width: 60%;
-    margin: 0 auto;
-}
-
-.employment {
-    height: 600px;
-    margin-top: 75px;
-}
-
-#school h2 {
-    font-size: 200%;
-    text-align: center;
-    margin-bottom: 3%;
-    padding-top: 20%;
-}
-
-#school table td {
-    text-align: center;
-}
-
-#school table, th, td{
-    border: 2px solid black;
-    border-collapse: collapse;
-}
-
-#job h2 {
-    font-size: 200%;
-    float: center;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-bottom: 3%;
-    padding-top: 5%;
-}
-
-#job h4 {
-    margin-left: 5%;
-    margin-top: 5%;
-}
-
-.list1 {
-    display: grid;
-    grid-template-rows: repeat(7, min-content);
-    grid-auto-flow: column;
-    column-width: auto;
-    column-gap: 30px;
-    margin: 5%;
-  }
-
-.list2 {
-    display: grid;
-    grid-template-rows: repeat(2, min-content);
-    grid-auto-flow: column;
-    column-width: auto;
-    column-gap: 30px;
-    margin: 5%;
-}
-
-#job ul{
-    margin: 20px;
-    padding: 10px;
-} */
 
 /* Contact Me Page*/
 .form {

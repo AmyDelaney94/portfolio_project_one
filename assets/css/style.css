@@ -297,7 +297,7 @@ body {
 /* Contact Me Page*/
 .form {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .form {
@@ -313,9 +313,7 @@ body {
     position: absolute;
     margin-top: 10px;
     padding: 20px;
-    /* border: 2px solid black; */
     height: 400px;
-    
 }
 
 .contact-form > h3 {
@@ -331,10 +329,11 @@ body {
     margin: 5px 0 20px 0;
     border: 1px solid #f01010b9;
     border-radius: 2px;
+    box-sizing: border-box;
 }
 
 #message {
-    height: 75px;
+    resize: none;
 }
 
 .text:hover {

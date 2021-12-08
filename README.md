@@ -34,6 +34,7 @@ o	Hobbies Section -> In this section I will display a collage of images showing 
 o	Move the education and employment history to individual pages.
 o	Keep up-to-date with new information.
 o	Add new page for links coding portfolio
+-   Add thank you page for submitting form. 
 
 Testing:  
 

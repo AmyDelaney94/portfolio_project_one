@@ -159,7 +159,7 @@ h4 {
     float: right;
     width: 400px;
     margin: auto;
-    height: 175px;
+    height: 250px;
 }
 
 .hobbies {
@@ -422,5 +422,5 @@ table.grades, th, td {
 @media screen and (max-width: 800px) {
     #gallery {
         column-count: 1;
-    }
+    }   
 }

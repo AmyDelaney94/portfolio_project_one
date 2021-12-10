@@ -58,8 +58,17 @@ As this is an online resume I chose the logo as 'Curriculum Vitae'
 ## Testing:  
 During the testing phase of the project I realised that not all elements were responsive. This led to the implementation of Flexbox. 
 **Add screenshots of different screen sizes using amiresponsive and responsinator ** 
-**Also mention the use of DevTools ** 
-
+- using google chrome dev tools I tested the following screen sizes: 
+    - iphone 5 
+        - gallery goes to 1x1 and all elements stacked in center of page. 
+        - history page all elements stacked
+        -  loss of bullet points in amgen collumn
+    - width 900 
+        - loss of bullet points in Amgen collumn
+    - width 1200
+    - width 1300 
+        - noted white space at side of hero image 
+            ** see screenshot**
 
 ### Validator Testing
 -	HTML

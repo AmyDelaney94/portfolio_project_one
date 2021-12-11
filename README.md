@@ -64,7 +64,7 @@ During the testing phase of the project I realised that not all elements were re
         - history page all elements stacked
         -  loss of bullet points in amgen collumn
     - width 900 
-        - loss of bullet points in Amgen collumn
+        - loss of bullet points in Amgen collumn (loss begins at approx 615width)
     - width 1200
     - width 1300 
         - noted white space at side of hero image 

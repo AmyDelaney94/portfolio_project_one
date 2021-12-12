@@ -429,3 +429,60 @@ table.grades, th, td {
         column-count: 1;
     }   
 }
+
+@media all and (max-width: 1300px) {
+    .header {
+        flex: 5;
+    }
+
+    .title {
+        order: 2;
+    }
+
+    .hero {
+        order: 1;
+    }
+
+    .picture {
+        order: 3;
+        align-content: left;
+        height: 175px;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .introduction {
+        order: 4;
+        margin: auto; 
+        height: 175px;
+        margin-right: 5%;
+    }
+
+    .footer {
+        order: 5;
+    }
+
+    .history {
+        flex: 3;
+    }
+
+    .education {
+        order: 1;
+        align-items: center;
+        margin: 10px;
+    }
+     
+    .employment {
+        order: 2;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .footer {
+        order: 3;
+    }
+
+    .header {
+        flex: 100%; 
+    }
+}

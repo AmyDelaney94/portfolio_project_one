@@ -377,12 +377,16 @@ table.grades, th, td {
         order: 1;
     }
 
-    .picture {
+    .picture > img {
         order: 3;
+        align-self: center;
     }
 
-    .introduction {
+    .introduction > p {
         order: 4;
+        align-content: center;  
+        width: 98%;  
+        margin: 2px;
     }
 
     .footer {
@@ -396,12 +400,13 @@ table.grades, th, td {
     .education {
         order: 1;
         align-items: center;
+        margin: 10px;
     }
      
     .employment {
         order: 2;
-        max-width: 90%;
         align-items: center;
+        margin: 20px;
     }
 
     .footer {

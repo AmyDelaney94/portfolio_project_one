@@ -69,7 +69,7 @@ During the testing phase of the project I realised that not all elements were re
 
 ### Validator Testing
 -	HTML
-    - There were no errors found when passing code through the official <a href="https://validator.w3.org/" target=_blank rel="noopener"> W3C validator</a>. One warning was observed but no text is in that section so a header is not required. <img  src="assets/images/screenshots/HTMLvalidation.png" alt="Screengrab of CSS testing results">
+    - There were no errors found when passing code through the official <a href="https://validator.w3.org/" target=_blank rel="noopener"> W3C validator</a>.<img  src="assets/images/screenshots/htmltesting.PNG" alt="Screengrab of HTML validation results">
 -	CSS
     - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.<img  src="assets/images/screenshots/CSSresults.PNG" alt="Screengrab of CSS testing results">
 -   Lighthouse score

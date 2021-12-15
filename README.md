@@ -62,20 +62,17 @@ During the testing phase of the project I realised that not all elements were re
     - iphone 5 
         - gallery goes to 1x1 and all elements stacked in center of page. 
         - history page all elements stacked
-        -  loss of bullet points in amgen collumn
-    - width 900 
-        - loss of bullet points in Amgen collumn (loss begins at approx 615width)
     - width 1200
     - width 1300 
-        - noted white space at side of hero image 
-            ** see screenshot**
+        - noted white space at side of hero image <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image">
+            
 
 ### Validator Testing
 -	HTML
     - There were no issues found when passing code through the official <a href="https://validator.w3.org/" target=_blank rel="noopener"> W3C validator</a>.
     -   Use official W3C validator
 -	CSS
-    - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.
+    - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.<img  src="assets/images/screenshots/CSSresults.PNG" alt="Screengrab of CSS testing results">
 -   Lighthouse score
     - The lighthouse score for my site is 89 and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse.png" alt="Screengrab of lighthouse score breakdown">
 

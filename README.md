@@ -77,9 +77,11 @@ During the testing phase of the project I realised that not all elements were re
 -	CSS
     - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.
 -   Lighthouse score
-    - The lighthouse score for my site is ** ** and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. 
+    - The lighthouse score for my site is 89 and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse.png" alt="Screengrab of lighthouse score breakdown">
+
 
 ### Unfixed Bugs
+- When testing site on larger screen sizes it is distorted on screens of 22" and above. 
 
 ## Deployment 
 - The site was deployed to GitHub pages using the following steps:
@@ -108,4 +110,5 @@ During the testing phase of the project I realised that not all elements were re
 - <a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels.com </a> was used to obtain the hero image, 4 of the 6 gallery photos, and the background image used on my contact form. 
 - <a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a> was used to obtain the social media icons used in the footer section of each page. 
 
-
+## Wireframe 
+<img src="assets/images/screenshots/wireframe.jpg" alt="Screenshot of my wireframe">

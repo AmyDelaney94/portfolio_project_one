@@ -13,7 +13,7 @@ As this is an online resume I chose the logo as 'Curriculum Vitae'
 
 <img src="assets/images/screenshots/headerandnav.png" alt="Screenshot of Nav bar and site logo with current page underlined">
 
-### Home Page -> 
+### Home Page
 
 #### Hero Image 
 
@@ -77,7 +77,7 @@ During the testing phase of the project I realised that not all elements were re
 -	CSS
     - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.<img  src="assets/images/screenshots/CSSresults.PNG" alt="Screengrab of CSS testing results">
 -   Lighthouse score
-    - The lighthouse score for my site is 89 and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse.png" alt="Screengrab of lighthouse score breakdown">
+    - The lighthouse score for my site is 89 and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse-score.png" alt="Screengrab of lighthouse score breakdown">
 
 
 ### Unfixed Bugs

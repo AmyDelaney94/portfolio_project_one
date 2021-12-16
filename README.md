@@ -1,135 +1,88 @@
-<!-- TOC --><a name="portfolio_project_one"></a>
 # portfolio_project_one
 This is the repository of my first portfolio project. This project will focus on the use of both HTML and CSS.
 
-<!-- TOC start -->
-- [portfolio_project_one](#portfolio_project_one)
-- [Title: Online Resume ](#title-online-resume)
-  * [Features     ](#features)
-    + [Navigation Bar ->](#navigation-bar-)
-    + [Site logo ](#site-logo)
-    + [Home Page](#home-page)
-      - [Hero Image ](#hero-image)
-      - [About Me Section](#about-me-section)
-      - [Hobbies Section -> ](#hobbies-section-)
-    + [Footer Section -> ](#footer-section-)
-    + [History Page -> ](#history-page-)
-      - [Education section -> ](#education-section-)
-      - [Emplyment -> ](#emplyment-)
-    + [Contact Page -> ](#contact-page-)
-  * [Future Features](#future-features)
-  * [Testing:  ](#testing)
-    + [Validator Testing](#validator-testing)
-    + [Unfixed Bugs](#unfixed-bugs)
-  * [Deployment ](#deployment)
-  * [Credits ](#credits)
-    + [Content](#content)
-    + [Media](#media)
-  * [Wireframe ](#wireframe)
-<!-- TOC end -->
-
-<!-- TOC --><a name="title-online-resume"></a>
 # Title: Online Resume 
-Online Resume is a site that is designed to display an online version of my curriculum vitae. It is intended to target potential employers and recruiters. In this project I hope to accomplish a clear design and portrayal of some information about me, including an about me section, a brief employment history, a  summary of my previous education, a gallery of images showing my hobbies and finally a page allowing recruiters to contact me for my references. As I am looking to change career field, I am hoping this site will show prospective employers my skills as a software developer. 
+Online Resume is a site that is designed to display an online version of my curriculum vitae. It is intended to target potential employers and recruiters. In this project I hope to accomplish a clear design and portrayal of information about me, including an about me section, a brief employment history, a  summary of my previous education, a gallery of images showing my hobbies and finally a page allowing recruiters to contact me for my references. As I am looking to change career field, I am hoping this site will show prospective employers my skills as a software developer. 
 
-
-<!-- TOC --><a name="features"></a>
 ## Features     
-
-<!-- TOC --><a name="navigation-bar-"></a>
-### Navigation Bar ->
+### Navigation Bar
 This navigation bar will be featured on each of the three pages with active links to the Home Page, Experience Page and Contact Page. The section is designed to allow the user to navigate between pages in order to get a full image of my employment and education history as well as what interests I have outside of the workplace. 
 
-<!-- TOC --><a name="site-logo"></a>
 ### Site logo 
 As this is an online resume I chose the logo as 'Curriculum Vitae'
 
 <img src="assets/images/screenshots/headerandnav.png" alt="Screenshot of Nav bar and site logo with current page underlined">
 
-<!-- TOC --><a name="home-page"></a>
 ### Home Page
 
-<!-- TOC --><a name="hero-image"></a>
 #### Hero Image 
 
 <img src="assets/images/screenshots/herowithtext.png" alt="Screenshot of hero image with summary text on top">
 
-<!-- TOC --><a name="about-me-section"></a>
 #### About Me Section
  * This section is designed to give the user a brief description about me, my background and my hobbies. The user will be given an introduction to me and my reasons for my application. I have added a profile picture of myself a longside the description box. 
 
 <img src="assets/images/screenshots/personalprofile.png" alt="Screenshot of my Personal Profile Section">
 
-<!-- TOC --><a name="hobbies-section-"></a>
-#### Hobbies Section -> 
+#### Hobbies Section 
 - In this section I will display a collage of images showing examples of hobbies and interests I have outside of work. This section is designed showcase the variety of activities I take part in on my time off including field hockey, rock climbing and bouldering, and snowboarding.
  
 <img src="assets/images/screenshots/hobbies.png" alt="Screenshot of Extracurricular Activities Section">
 
-<!-- TOC --><a name="footer-section-"></a>
-### Footer Section -> 
+### Footer Section  
 - This section includes my Social Media Links including: Linked In and Instagram.These links are provided to give the user a glimpse of my professional and personal social media sites. 
 
 <img src="assets/images/screenshots/newfooter.png" alt="Screenshot of footer section of the site">
 
-<!-- TOC --><a name="history-page-"></a>
-### History Page -> 
+### History Page  
 - This page is divided into two sections education and employment.
 
-<!-- TOC --><a name="education-section-"></a>
-#### Education section -> 
+#### Education section  
 - This section contains a table showing the degrees I have obtained over the last few years as well as the university attended and the years of study. I added an image of Maynooth's South Campus as it was one of my favourite locations to study. 
 
 <img src="assets/images/screenshots/education.png" alt="Screenshot of the Education Section">
 
-<!-- TOC --><a name="emplyment-"></a>
-#### Emplyment -> 
+#### Emplyment 
 - This section is split into two columns, the first showing my current role in Amgen and the second my previous role in UPS. I have also added the UPS logo to balance the space on the page.  
 
 <img src="assets/images/screenshots/employment.png" alt="Screenshot of Employment Section">
 
-<!-- TOC --><a name="contact-page-"></a>
-### Contact Page -> 
+### Contact Page
 - This page contains a basic form that will allow users to fill in their first and last names, email address, a subject line, and brief message to request references or any further information. Each answer box has a prompt to fill in if a segment is left blank, and additionally the email address section requests that an @ sign is present.A background image was added to this page which is framed by the white header and footer sections.  
 
-<img src="assets/images/screenshots/contactpage.png" alt="Screenshot of top of the contact form page">
-<img src="assets/images/screenshots/submitbutton.png" alt="Screenshot of bottom of the contact form page">
+<img src="assets/images/screenshots/contactpage.png" alt="Screenshot of the contact form page">
 
-<!-- TOC --><a name="future-features"></a>
+
 ## Future Features
 -	Move the education and employment history to individual pages.
 -	Keep up-to-date with new information.
 -	Add new footer icon for links coding portfolio alongside social media links
 -   Add thank you page for submitting form. 
 
-<!-- TOC --><a name="testing"></a>
 ## Testing:  
 During the testing phase of the project I realised that not all elements were responsive. This led to the implementation of Flexbox. 
 **Add screenshots of different screen sizes using amiresponsive and responsinator ** 
 - using google chrome dev tools I tested the following screen sizes: 
     - iphone 5 
         - gallery goes to 1x1 and all elements stacked in center of page. 
-        - history page all elements stacked.
-    - width 1300+ 
-        - noted white space at side of hero image but this was fixed with updated media queries. 
+        - history page all elements stacked
+    - width 1300+
+        - noted white space at side of hero image <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image"> This was fixed with edits to media queries. 
             
 
-<!-- TOC --><a name="validator-testing"></a>
 ### Validator Testing
 -	HTML
     - There were no errors found when passing code through the official <a href="https://validator.w3.org/" target=_blank rel="noopener"> W3C validator</a>.<img  src="assets/images/screenshots/htmltesting.PNG" alt="Screengrab of HTML validation results">
 -	CSS
     - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.<img  src="assets/images/screenshots/CSSresults.PNG" alt="Screengrab of CSS testing results">
 -   Lighthouse score
-    - The lighthouse score for my site is 93% and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse-score.png" alt="Screengrab of lighthouse score breakdown">
+    - The lighthouse score for my site is 93 and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse-score.png" alt="Screengrab of lighthouse score breakdown">
 
 
-<!-- TOC --><a name="unfixed-bugs"></a>
 ### Unfixed Bugs
 - When testing site on larger screen sizes it is distorted on screens of 22" and above. 
-- Layout of personal profile section is not in line in larger screen sizes. 
+- 
 
-<!-- TOC --><a name="deployment"></a>
 ## Deployment 
 - The site was deployed to GitHub pages using the following steps:
     - Select GitHub repository.
@@ -139,9 +92,7 @@ During the testing phase of the project I realised that not all elements were re
     - Once selected a green banner appears with site URL indicating sucessful deployment. 
 
 
-<!-- TOC --><a name="credits"></a>
 ## Credits 
-<!-- TOC --><a name="content"></a>
 ### Content
 -  Code Institute 
     - Love Running Walkthrough 
@@ -155,11 +106,9 @@ During the testing phase of the project I realised that not all elements were re
     - <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener">CSS-tricks.com</a> was used to obtain more information about implementing flexbox to my site. 
     - <a href="https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01" target="_blank" rel="noopener">DEV.to </a> was used to aid in the design and layout of the content using flexbox. 
 
-<!-- TOC --><a name="media"></a>
 ### Media
 - <a href="https://www.pexels.com/" target="_blank" rel="noopener">Pexels.com </a> was used to obtain the hero image, 4 of the 6 gallery photos, and the background image used on my contact form. 
 - <a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a> was used to obtain the social media icons used in the footer section of each page. 
 
-<!-- TOC --><a name="wireframe"></a>
 ## Wireframe 
 <img src="assets/images/screenshots/wireframe.jpg" alt="Screenshot of my wireframe">

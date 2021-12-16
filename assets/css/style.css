@@ -441,13 +441,6 @@ td {
     }
 }
 
-@media screen and (max-width: 950px) {
-    #gallery {
-        column-count: 3;
-    }
-
-}
-
 @media screen and (max-width: 800px) {
     #gallery {
         column-count: 1;

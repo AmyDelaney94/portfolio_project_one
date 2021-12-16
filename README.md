@@ -61,18 +61,21 @@ As this is an online resume I chose the logo as 'Curriculum Vitae'
 
 ## Testing:  
 During the testing phase of the project I realised that not all elements were responsive. This led to the implementation of Flexbox. 
-**Add screenshots of different screen sizes using amiresponsive and responsinator ** 
-- using google chrome dev tools I tested the following screen sizes: 
+
+<img src="assets/images/screenshots/Responsivesite.png" alt="Screenshot of various responsive screens">
+
+- using google chrome dev tools I tested a number of different screen sizes including: 
     - iphone 5 
         - gallery goes to 1x1 and all elements stacked in center of page. 
         - history page all elements stacked
     - width 1300+
-        - noted white space at side of hero image <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image"> This was fixed with edits to media queries. 
+        - noted white space at side of hero image, this was fixed with edits to media queries.  <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image"> 
+        
             
 
 ### Validator Testing
 -	HTML
-    - There were no errors found when passing code through the official <a href="https://validator.w3.org/" target=_blank rel="noopener"> W3C validator</a>.<img  src="assets/images/screenshots/htmltesting.PNG" alt="Screengrab of HTML validation results">
+    - There were no errors found when passing code through the official <a href="https://validator.w3.org/" target=_blank rel="noopener"> W3C validator</a> on any of the three pages.<img  src="assets/images/screenshots/htmltesting.PNG" alt="Screengrab of HTML validation results">
 -	CSS
     - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.<img  src="assets/images/screenshots/CSSresults.PNG" alt="Screengrab of CSS testing results">
 -   Lighthouse score

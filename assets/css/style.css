@@ -66,7 +66,7 @@ body {
     margin-top: 10px;
 }
 
-.container >* {
+.container>* {
     flex: 1 100%;
 }
 
@@ -74,19 +74,22 @@ body {
     line-height: 75px;
 }
 
-.row3, .row5 {
+.row3,
+.row4,
+.row5 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.row4 {
+/* .row4 {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin-top: 15px;
-}
+} */
 
 .column1 {
     display: flex;
@@ -107,6 +110,7 @@ body {
     height: 650px;
     width: 100%;
     background: url('../images/cactusdesk.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 #intro-text,
@@ -129,7 +133,7 @@ body {
 .homepage {
     font-family: 'Oswald', sans-serif;
     color: #3c3c3c;
-    display: flex;
+    display: inline-table;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -137,13 +141,14 @@ body {
 
 .personal {
     height: 600px;
-    margin-top: 75px;
+    margin: 75px 0 75px 0;
     justify-content: space-evenly;
 }
 
 h2,
 h3,
-h4,h5 {
+h4,
+h5 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     color: black;
@@ -154,14 +159,14 @@ h4,h5 {
     text-align: center;
 }
 
-.picture > img {
+.picture>img {
     width: 150px;
     height: 175px;
     float: left;
     margin-left: 15%;
 }
 
-.introduction > p {
+.introduction>p {
     border: 2px solid black;
     float: right;
     width: 400px;
@@ -170,6 +175,7 @@ h4,h5 {
 }
 
 .hobbies {
+    float: center;
     position: relative;
     margin-top: 250px;
     height: 500px;
@@ -201,6 +207,7 @@ h5 {
 
 #socials li {
     list-style-type: none;
+    position: center;
     display: inline;
 }
 
@@ -226,13 +233,15 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    padding: 0 10px 0 10px;
 }
 
 .history>* {
     flex: 1;
 }
 
-.row1, .row2 {
+.row1,
+.row2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -244,6 +253,10 @@ body {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+}
+
+.column1 div {
+    margin: 0 auto;
 }
 
 .education {
@@ -276,7 +289,9 @@ body {
     text-align: center;
 }
 
-table.grades, th, td {
+table.grades,
+th,
+td {
     border: 2px solid black;
     border-collapse: collapse;
 }
@@ -286,9 +301,11 @@ table.grades, th, td {
     margin-top: 50px;
 }
 
-.list1, .list2 {
-    margin: auto;
+.list1,
+.list2 {
+    margin: 20px;
     align-self: center;
+    padding: 0 20px 0 20px;
 }
 
 #job h4 {
@@ -313,13 +330,13 @@ table.grades, th, td {
 /* Contact Me Page*/
 .form {
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
 }
 
 .form {
     background: url('../images/plant.jpg');
     background-size: cover;
-    background-position: center;
+    width: 100%;
     height: 800px;
 }
 
@@ -332,7 +349,7 @@ table.grades, th, td {
     height: 400px;
 }
 
-.contact-form > h3 {
+.contact-form>h3 {
     color: #3c3c3c;
     margin-bottom: 30px;
 }
@@ -355,7 +372,7 @@ table.grades, th, td {
     border-color: blue;
 }
 
-.send-button{
+.send-button {
     margin-top: 20px;
     border-radius: 3px;
     padding: 15px 32px;
@@ -364,6 +381,7 @@ table.grades, th, td {
     background-color: #f01010b9;
     color: rgb(238, 238, 223);
     display: block;
+    width: 100%;
 }
 
 /* Media Queries*/
@@ -381,16 +399,12 @@ table.grades, th, td {
         order: 1;
     }
 
-    .picture > img {
+    .picture>img {
         order: 3;
-        align-self: center;
     }
 
-    .introduction > p {
+    .introduction>p {
         order: 4;
-        align-content: center;  
-        width: 98%;  
-        margin: 2px;
     }
 
     .footer {
@@ -404,13 +418,12 @@ table.grades, th, td {
     .education {
         order: 1;
         align-items: center;
-        margin: 10px;
     }
-     
+
     .employment {
         order: 2;
         align-items: center;
-        margin: 20px;
+        width: 100%;
     }
 
     .footer {
@@ -418,75 +431,25 @@ table.grades, th, td {
     }
 
     .header {
-        flex: 100%; 
+        flex: 100%;
     }
 }
 
-@media screen and (max-width: 950px ){
+@media screen and (max-width: 950px) {
     #gallery {
         column-count: 3;
     }
 }
 
+@media screen and (max-width: 950px) {
+    #gallery {
+        column-count: 3;
+    }
+
+}
+
 @media screen and (max-width: 800px) {
     #gallery {
         column-count: 1;
-    }   
-}
-
-@media all and (max-width: 1300px) {
-    .header {
-        flex: 5;
-    }
-
-    .title {
-        order: 2;
-    }
-
-    .hero {
-        order: 1;
-    }
-
-    .picture {
-        order: 3;
-        justify-content: left;
-        height: 175px;
-        margin-left: 5%;
-        margin-top: 2%;
-    }
-
-    .introduction {
-        order: 4;
-        margin: auto; 
-        height: 175px;
-        margin-right: 5%;
-    }
-
-    .footer {
-        order: 5;
-    }
-
-    .history {
-        flex: 3;
-    }
-
-    .education {
-        order: 1;
-        align-items: center;
-        margin: 10px;
-    }
-     
-    .employment {
-        order: 2;
-        align-items: center;
-        margin: 20px;
-    }
-
-    .footer {
-        order: 3;
-    }
-
-    .header {
-        flex: 100%; 
     }
 }

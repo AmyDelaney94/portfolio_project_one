@@ -1,3 +1,7 @@
+<!-- TOC --><a name="portfolio_project_one"></a>
+# portfolio_project_one
+This is the repository of my first portfolio project. This project will focus on the use of both HTML and CSS.
+
 <!-- TOC start -->
 - [portfolio_project_one](#portfolio_project_one)
 - [Title: Online Resume ](#title-online-resume)
@@ -23,16 +27,15 @@
     + [Media](#media)
   * [Wireframe ](#wireframe)
 <!-- TOC end -->
-<!-- TOC --><a name="portfolio_project_one"></a>
-# portfolio_project_one
-This is the repository of my first portfolio project. This project will focus on the use of both HTML and CSS.
 
 <!-- TOC --><a name="title-online-resume"></a>
 # Title: Online Resume 
-Online Resume is a site that is designed to display an online version of my curriculum vitae. It is intended to target potential employers and recruiters. In this project I hope to accomplish a clear design and portrayal of information about me, including an about me section, a brief employment history, a  summary of my previous education, a gallery of images showing my hobbies and finally a page allowing recruiters to contact me for my references. As I am looking to change career field, I am hoping this site will show prospective employers my skills as a software developer. 
+Online Resume is a site that is designed to display an online version of my curriculum vitae. It is intended to target potential employers and recruiters. In this project I hope to accomplish a clear design and portrayal of some information about me, including an about me section, a brief employment history, a  summary of my previous education, a gallery of images showing my hobbies and finally a page allowing recruiters to contact me for my references. As I am looking to change career field, I am hoping this site will show prospective employers my skills as a software developer. 
+
 
 <!-- TOC --><a name="features"></a>
 ## Features     
+
 <!-- TOC --><a name="navigation-bar-"></a>
 ### Navigation Bar ->
 This navigation bar will be featured on each of the three pages with active links to the Home Page, Experience Page and Contact Page. The section is designed to allow the user to navigate between pages in order to get a full image of my employment and education history as well as what interests I have outside of the workplace. 
@@ -106,10 +109,9 @@ During the testing phase of the project I realised that not all elements were re
 - using google chrome dev tools I tested the following screen sizes: 
     - iphone 5 
         - gallery goes to 1x1 and all elements stacked in center of page. 
-        - history page all elements stacked
-    - width 1200 
-    - width 1300 
-        - noted white space at side of hero image <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image">
+        - history page all elements stacked.
+    - width 1300+ 
+        - noted white space at side of hero image but this was fixed with updated media queries. 
             
 
 <!-- TOC --><a name="validator-testing"></a>
@@ -119,7 +121,7 @@ During the testing phase of the project I realised that not all elements were re
 -	CSS
     - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.<img  src="assets/images/screenshots/CSSresults.PNG" alt="Screengrab of CSS testing results">
 -   Lighthouse score
-    - The lighthouse score for my site is 89 and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse-score.png" alt="Screengrab of lighthouse score breakdown">
+    - The lighthouse score for my site is 93% and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse-score.png" alt="Screengrab of lighthouse score breakdown">
 
 
 <!-- TOC --><a name="unfixed-bugs"></a>

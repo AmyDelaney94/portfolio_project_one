@@ -22,7 +22,7 @@ As this is an online resume I chose the logo as 'Curriculum Vitae'
 #### About Me Section
  * This section is designed to give the user a brief description about me, my background and my hobbies. The user will be given an introduction to me and my reasons for my application. I have added a profile picture of myself a longside the description box. 
 
-** Insert clip of About me Section here** 
+<img src="assets/images/screenshots/personalprofile.png" alt="Screenshot of my Personal Profile Section">
 
 #### Hobbies Section -> 
 - In this section I will display a collage of images showing examples of hobbies and interests I have outside of work. This section is designed showcase the variety of activities I take part in on my time off including field hockey, rock climbing and bouldering, and snowboarding.
@@ -30,7 +30,7 @@ As this is an online resume I chose the logo as 'Curriculum Vitae'
 <img src="assets/images/screenshots/hobbies.png" alt="Screenshot of Extracurricular Activities Section">
 
 ### Footer Section -> 
-- This section will include my Social Media Links including: Linked In and Instagram.These links are provided to give the user a glimpse of my professional and personal social media sites. 
+- This section includes my Social Media Links including: Linked In and Instagram.These links are provided to give the user a glimpse of my professional and personal social media sites. 
 
 <img src="assets/images/screenshots/newfooter.png" alt="Screenshot of footer section of the site">
 
@@ -40,8 +40,12 @@ As this is an online resume I chose the logo as 'Curriculum Vitae'
 #### Education section -> 
 - This section contains a table showing the degrees I have obtained over the last few years as well as the university attended and the years of study. I added an image of Maynooth's South Campus as it was one of my favourite locations to study. 
 
+<img src="assets/images/screenshots/education.png" alt="Screenshot of the Education Section">
+
 #### Emplyment -> 
 - This section is split into two columns, the first showing my current role in Amgen and the second my previous role in UPS. I have also added the UPS logo to balance the space on the page.  
+
+<img src="assets/images/screenshots/employment.png" alt="Screenshot of Employment Section">
 
 ### Contact Page -> 
 - This page contains a basic form that will allow users to fill in their first and last names, email address, a subject line, and brief message to request references or any further information. Each answer box has a prompt to fill in if a segment is left blank, and additionally the email address section requests that an @ sign is present.A background image was added to this page which is framed by the white header and footer sections.  
@@ -62,7 +66,7 @@ During the testing phase of the project I realised that not all elements were re
     - iphone 5 
         - gallery goes to 1x1 and all elements stacked in center of page. 
         - history page all elements stacked
-    - width 1200
+    - width 1200 
     - width 1300 
         - noted white space at side of hero image <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image">
             
@@ -78,6 +82,7 @@ During the testing phase of the project I realised that not all elements were re
 
 ### Unfixed Bugs
 - When testing site on larger screen sizes it is distorted on screens of 22" and above. 
+- Layout of personal profile section is not in line in larger screen sizes. 
 
 ## Deployment 
 - The site was deployed to GitHub pages using the following steps:

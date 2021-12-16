@@ -30,7 +30,7 @@ As this is an online resume I chose the logo as 'Curriculum Vitae'
 <img src="assets/images/screenshots/hobbies.png" alt="Screenshot of Extracurricular Activities Section">
 
 ### Footer Section  
-- This section includes my Social Media Links including: Linked In and Instagram.These links are provided to give the user a glimpse of my professional and personal social media sites. 
+- This section includes my Social Media Links including: Linked In and Instagram. These links are provided to give the user a glimpse of my professional and personal social media sites. 
 
 <img src="assets/images/screenshots/newfooter.png" alt="Screenshot of footer section of the site">
 
@@ -56,7 +56,7 @@ As this is an online resume I chose the logo as 'Curriculum Vitae'
 ## Future Features
 -	Move the education and employment history to individual pages.
 -	Keep up-to-date with new information.
--	Add new footer icon for links coding portfolio alongside social media links
+-	Add new footer icon for links to my coding portfolio alongside social media links
 -   Add thank you page for submitting form. 
 
 ## Testing:  

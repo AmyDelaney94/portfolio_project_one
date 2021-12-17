@@ -69,7 +69,8 @@ During the testing phase of the project I realised that not all elements were re
         - gallery goes to 1x1 and all elements stacked in center of page. 
         - history page all elements stacked
     - width 1300+
-        - noted white space at side of hero image, this was fixed with edits to media queries.  <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image"> 
+        - noted white space at side of hero image, this was fixed with edits to media queries.  
+        <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image"> 
         
             
 
@@ -79,11 +80,10 @@ During the testing phase of the project I realised that not all elements were re
 -	CSS
     - There were no issues found when passing code through the official <a href="https://jigsaw.w3.org/css-validator/" target=_blank rel="noopener"> W3C (Jigsaw) validator</a>.<img  src="assets/images/screenshots/CSSresults.PNG" alt="Screengrab of CSS testing results">
 -   Lighthouse score
-    - The lighthouse score for my site is 93 and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse-score.png" alt="Screengrab of lighthouse score breakdown">
+    - The lighthouse score for my site is 89% and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse-score.png" alt="Screengrab of lighthouse score breakdown">
 
 
 ### Unfixed Bugs
-- When testing site on larger screen sizes it is distorted on screens of 22" and above. 
 - 
 
 ## Deployment 
@@ -104,6 +104,8 @@ During the testing phase of the project I realised that not all elements were re
         - This resource was used throughout the development of this site. 
 
 - <a href="https://www.w3schools.com/default.asp" target="_blank" rel="noopener"> W3schools </a> was used as a resource when creating the table used to display my grades in the Education History section of my online resume. It was also used for finding additional information to be used in my form. 
+
+- <a href="https://cloudconvert.com/webp-converter" target="_blank" rel="noopener"> Cloud Convert </a> was used as a resource to convert my jpg files to webp files used in my Gallery and Employment sections. 
 
 - Flexbox
     - <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener">CSS-tricks.com</a> was used to obtain more information about implementing flexbox to my site. 

@@ -2,25 +2,26 @@
 This is the repository of my first portfolio project. This project will focus on the use of both HTML and CSS.
 
 # Title: Online Resume 
-Online Resume is a site that is designed to display an online version of my curriculum vitae. It is intended to target potential employers and recruiters. In this project I hope to accomplish a clear design and portrayal of information about me, including an about me section, a brief employment history, a  summary of my previous education, a gallery of images showing my hobbies and finally a page allowing recruiters to contact me for my references. As I am looking to change career field, I am hoping this site will show prospective employers my skills as a software developer. 
+Online Resume is a site that is designed to display an online version of my curriculum vitae. It is intended to target potential employers and recruiters. In this project I hope to accomplish a clear design and portrayal of information about me, including an about me section, a brief employment history, a  summary of my previous education, a gallery of images showing my hobbies and finally a page allowing recruiters to contact me for my references and any other information that they may require. As I am looking to change my career path in the future, I am hoping this site will show prospective employers my skills as a new software developer as it gives me a platform that I can add and showcase my portfolio. 
 
 ## Features     
 ### Navigation Bar
-This navigation bar will be featured on each of the three pages with active links to the Home Page, Experience Page and Contact Page. The section is designed to allow the user to navigate between pages in order to get a full image of my employment and education history as well as what interests I have outside of the workplace. 
+This navigation bar will be featured on each of the three pages with active links to the Home Page, History Page and Contact Page. The section is designed to allow the user to navigate between pages in order to get a full image of my employment and education history as well as what interests I have outside of the workplace. 
 
 ### Site logo 
-As this is an online resume I chose the logo as 'Curriculum Vitae'
+As this is an online resume I chose the logo to be 'Curriculum Vitae'
 
 <img src="assets/images/screenshots/headerandnav.png" alt="Screenshot of Nav bar and site logo with current page underlined">
 
 ### Home Page
 
 #### Hero Image 
+- This image is on the Home page and contains my name and the title of the content to be displayed on the Main page. 
 
 <img src="assets/images/screenshots/herowithtext.png" alt="Screenshot of hero image with summary text on top">
 
 #### About Me Section
- * This section is designed to give the user a brief description about me, my background and my hobbies. The user will be given an introduction to me and my reasons for my application. I have added a profile picture of myself a longside the description box. 
+ - This section is designed to give the user a brief description about me, my background and my hobbies. The user will be given an introduction to me and my reasons for my application. I have added a profile picture of myself a longside the description box.
 
 <img src="assets/images/screenshots/personalprofile.png" alt="Screenshot of my Personal Profile Section">
 
@@ -72,7 +73,6 @@ During the testing phase of the project I realised that not all elements were re
         - noted white space at side of hero image, this was fixed with edits to media queries.  
         <img src="assets/images/screenshots/width1300.png" alt="Image of white space surrounding hero image"> 
         
-            
 
 ### Validator Testing
 -	HTML
@@ -82,9 +82,17 @@ During the testing phase of the project I realised that not all elements were re
 -   Lighthouse score
     - The lighthouse score for my site is 89% and was caluclated using the <a href="https://web.dev/measure/?gclid=CjwKCAiAksyNBhAPEiwAlDBeLNrgtDnjyshg858znb2oscLaGjVm-r0pRKtJ4wFMaV1Gg1nMQ7JXfBoCei4QAvD_BwE" target=_blank rel="noopener"> Lighthouse score </a> calculation site. <img  src="assets/images/screenshots/lighthouse-score.png" alt="Screengrab of lighthouse score breakdown">
 
+### Issues Faced during Development
+- During the development of my site I encountered a number of issues, including the footer being misplaced and some text being cropping out on smaller screens. Examples of these issues can be seen below. These errors were fixed through updating my flexbox and media queries. 
+
+ <img src="assets/images/screenshots/wrongfooter.png" alt="Wrong footer">
+ <img src="assets/images/screenshots/croppedtext.jpeg" alt="Image of text being cropped out"> 
 
 ### Unfixed Bugs
-- 
+- The descriptive text displayed below the gallery of extracurricular activities was initially designed to be centered however on implementation of my flexbox it is fixed to the left on large screen and moves to the center on smaller screens such as the iphone5 when tested on Google chromes Developer tools. 
+
+<img src="assets/images/screenshots/gallerytext.png" alt="Image of gallery text in the wrong position."> 
+<img src="assets/images/screenshots/galleryp.png" alt="Image of gallery text css.">
 
 ## Deployment 
 - The site was deployed to GitHub pages using the following steps:

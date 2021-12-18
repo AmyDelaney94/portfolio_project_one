@@ -166,7 +166,7 @@ h5 {
     margin-left: 15%;
 }
 
-.introduction>p {
+.introduction> p {
     border: 2px solid black;
     float: right;
     width: 400px;
@@ -181,7 +181,7 @@ h5 {
     height: 500px;
 }
 
-p {
+.hobbies > p {
     text-align: center;
 }
 
